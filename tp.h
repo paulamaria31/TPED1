@@ -8,4 +8,6 @@ typedef struct tabuleiro Tabuleiro;
 
 Tabuleiro* alocarTabuleiros(int n);
 
+void desalocarTabuleiro(Tabuleiro* tabuleiros);
+
 #endif
