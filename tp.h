@@ -6,5 +6,6 @@
 
 typedef struct tabuleiro Tabuleiro;
 
+Tabuleiro* alocarTabuleiros(int n);
 
 #endif
