@@ -10,4 +10,6 @@ Tabuleiro* alocarTabuleiros(int n);
 
 void desalocarTabuleiro(Tabuleiro* tabuleiros);
 
+Tabuleiro* lerTabuleiros(Tabuleiro* tabuleiros, int n);
+
 #endif

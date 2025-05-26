@@ -25,6 +25,15 @@ void desalocarTabuleiro(Tabuleiro* tabuleiros) {
     tabuleiros = NULL;
 }
 
+Tabuleiro* lerTabuleiros(Tabuleiro* tabuleiros, int n) {
+    if (tabuleiros == NULL || n == 0) {
+        printf("Não é possível ler os tabuleiros");
+        return NULL;
+    }
+    
+}
+
+
 
 
 
