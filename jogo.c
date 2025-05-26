@@ -8,8 +8,8 @@ int main() {
     scanf("%d", &n);
     //Fazendo a alocação dinâmica
     tabuleiros = alocarTabuleiros(n);
-    
-    desalocarTabuleiro(&tabuleiros);
+
+    desalocarTabuleiro(tabuleiros);
 
     return 0;
 }

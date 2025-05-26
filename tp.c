@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "tp.h"
 
 struct tabuleiro {
-    char [3][3] letra;
+    char letra[3][3];
 };
 
 Tabuleiro* alocarTabuleiros(int n) {
