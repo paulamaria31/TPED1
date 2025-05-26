@@ -21,6 +21,9 @@ void desalocarTabuleiro(Tabuleiro* tabuleiros) {
         printf("Não há nada para desalocar");
     }
     free(tabuleiros);
+    tabuleiros = NULL;
 }
+
+
 
 
