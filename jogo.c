@@ -3,13 +3,14 @@
 
 int main() {
     Tabuleiro* tabuleiros;
-    int n;
+    int t;
     //Lendo a quantidade de tabuleiros
-    scanf("%d", &n);
+    scanf("%d", &t);
     //Fazendo a alocação dinâmica
-    tabuleiros = alocarTabuleiros(n);
+    tabuleiros = alocarTabuleiros(t);
     //fazendo a leitura dos tabuleiros
-    tabuleiros = lerTabuleiros(tabuleiros, n);
+    tabuleiros = lerTabuleiros(tabuleiros, t);
+    //imprimirTabuleiros(tabuleiros,t);
 
     desalocarTabuleiro(tabuleiros);
 

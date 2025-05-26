@@ -6,10 +6,12 @@
 
 typedef struct tabuleiro Tabuleiro;
 
-Tabuleiro* alocarTabuleiros(int n);
+Tabuleiro* alocarTabuleiros(int t);
 
 void desalocarTabuleiro(Tabuleiro* tabuleiros);
 
-Tabuleiro* lerTabuleiros(Tabuleiro* tabuleiros, int n);
+Tabuleiro* lerTabuleiros(Tabuleiro* tabuleiros, int t);
+
+void imprimirTabuleiros(Tabuleiro* tabuleiros, int t);
 
 #endif
